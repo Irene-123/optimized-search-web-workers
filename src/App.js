@@ -68,7 +68,7 @@ class App extends Component {
     return (
       <div className="app-wrapper">
         <header className="header">
-          <img className="main-logo" src={logo} alt="main logo" />
+          
           <SearchBox
             highLight={highLight}
             sendNextHighLightIndex={this.getNextHighLightIndex}
